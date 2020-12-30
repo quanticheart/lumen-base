@@ -1,6 +1,6 @@
 <?php
     
-    /** @var \Laravel\Lumen\Routing\Router $router */
+    /** @var Router $router */
     
     /*
     |--------------------------------------------------------------------------
@@ -13,16 +13,13 @@
     |
     */
     
-    $router->get('/', function () use ($router) {
-        return $router->app->version();
-    });
+    use Laravel\Lumen\Routing\Router;
     
     const userController = 'UserController@';
     const loginController = 'LoginController@';
     
-    $router->get('/users', userController . 'getUsers');
-    
     $router->group(["prefix" => "user"], function () use ($router) {
+        $router->get('/list', userController . 'getUsers');
         
         $router->get('/{id}', userController . 'getUser');
         
@@ -31,10 +28,9 @@
         $router->delete('/delete/{id}', userController . 'deleteUser');
         
         $router->post('/insert', loginController . 'insertUser');
-        
-    });
     
-    $router->post('/info', userController . 'info');
+        $router->post('/session', userController . 'session');
+    });
     
     $router->post('/logout', userController . 'logout');
     

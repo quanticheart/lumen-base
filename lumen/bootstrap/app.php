@@ -8,7 +8,7 @@
     
     date_default_timezone_set(env('APP_TIMEZONE', 'UTC'));
     
-   
+    
     /*
     |--------------------------------------------------------------------------
     | Create The Application
@@ -74,11 +74,13 @@
     */
     
     $app->middleware([
-        App\Http\Middleware\CorsMiddleware::class
+        App\Http\Middleware\CorsMiddleware::class,
+        App\Http\Middleware\ApiTokenMiddleware::class
     ]);
     
     $app->routeMiddleware([
         'auth' => App\Http\Middleware\Authenticate::class,
+        'Agent' => Jenssegers\Agent\Facades\Agent::class
     ]);
     
     /*

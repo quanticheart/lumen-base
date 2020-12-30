@@ -8,16 +8,20 @@
     use Illuminate\Database\Eloquent\Factories\HasFactory;
     use Illuminate\Database\Eloquent\Model;
     use Laravel\Lumen\Auth\Authorizable;
-    use Tymon\JWTAuth\Contracts\JWTSubject;
 
-    class Usuario extends Model implements AuthenticatableContract, AuthorizableContract, JWTSubject {
+    /**
+     * @property mixed id
+     * @method static where(string $string, $input)
+     * @method static find($sub)
+     */
+    class User extends Model implements AuthenticatableContract, AuthorizableContract {
         use Authenticatable, Authorizable, HasFactory;
-    
+        
         /**
          * @var string table name
          */
-        protected $table = 'usuario';
-    
+        protected string $table = 'usuario';
+        
         /**
          * @var bool for block update timestamp updated_at and created_at
          */
@@ -28,7 +32,7 @@
          *
          * @var array
          */
-        protected $fillable = [
+        protected array $fillable = [
             'id', 'usuario', 'email',
         ];
         
@@ -37,25 +41,16 @@
          *
          * @var array
          */
-        protected $hidden = [
-            'password',
+        protected array $hidden = [
+            'password', 'verificado', 'updated_at', 'created_at'
         ];
-        
-        /**
-         * Get the identifier that will be stored in the subject claim of the JWT.
-         *
-         * @return mixed
-         */
-        public function getJWTIdentifier() {
-            return $this->getKey();
-        }
-        
-        /**
-         * Return a key value array, containing any custom claims to be added to the JWT.
-         *
-         * @return array
-         */
-        public function getJWTCustomClaims() {
-            return [];
-        }
+
+//        /**
+//         * The attributes to cast include in database
+//         *
+//         * @var array
+//         */
+//        protected $casts = [
+//            'date_column' => 'Timestamp'
+//        ];
     }

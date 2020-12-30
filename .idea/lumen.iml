@@ -13,6 +13,7 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/dragonmantank/cron-expression" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/egulias/email-validator" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/graham-campbell/result-type" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/auth" />
@@ -41,12 +42,13 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/translation" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/validation" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/view" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/jaybizzle/crawler-detect" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/jenssegers/agent" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/laravel/lumen-framework" />
-      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/mobiledetect/mobiledetectlib" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/myclabs/deep-copy" />
-      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/namshi/jose" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nesbot/carbon" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nikic/fast-route" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nikic/php-parser" />
@@ -111,7 +113,6 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/theseer/tokenizer" />
-      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/tymon/jwt-auth" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/voku/portable-ascii" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/webmozart/assert" />

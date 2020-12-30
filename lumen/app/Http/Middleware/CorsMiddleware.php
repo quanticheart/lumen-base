@@ -13,7 +13,6 @@
          * @return mixed
          */
         public function handle($request, Closure $next) {
-            
             $headers = [
                 'Access-Control-Allow-Origin' => '*',
                 'Access-Control-Allow-Methods' => 'POST, PUT, GET, DELETE, OPTIONS',

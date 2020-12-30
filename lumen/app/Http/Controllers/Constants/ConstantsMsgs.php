@@ -36,12 +36,12 @@
          * Msgs
          */
         /* pt_BR */
-        const msgErrorTokenExpiredBR = 'token expidado';
-        const msgErrorTokenInvalidBR = 'token invalido';
-        const msgErrorTokenOutBR = 'token ausente';
+        const msgErrorTokenExpiredBR = 'user token expidado';
+        const msgErrorTokenInvalidBR = 'user token invalido';
+        const msgErrorTokenOutBR = 'user token ausente';
         
         /* en */
-        const msgErrorTokenExpiredEng = 'token expired';
-        const msgErrorTokenInvalidEng = 'token invalid';
-        const msgErrorTokenOutEng = 'token out';
+        const msgErrorTokenExpiredEng = 'user token expired';
+        const msgErrorTokenInvalidEng = 'user token invalid';
+        const msgErrorTokenOutEng = 'user token out';
     }

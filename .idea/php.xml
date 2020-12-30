@@ -2,9 +2,7 @@
 <project version="4">
   <component name="PhpIncludePathManager">
     <include_path>
-      <path value="$PROJECT_DIR$/lumen/vendor/tymon/jwt-auth" />
       <path value="$PROJECT_DIR$/lumen/vendor/composer" />
-      <path value="$PROJECT_DIR$/lumen/vendor/lcobucci/jwt" />
       <path value="$PROJECT_DIR$/lumen/vendor/psr/log" />
       <path value="$PROJECT_DIR$/lumen/vendor/psr/event-dispatcher" />
       <path value="$PROJECT_DIR$/lumen/vendor/psr/container" />
@@ -78,7 +76,6 @@
       <path value="$PROJECT_DIR$/lumen/vendor/sebastian/lines-of-code" />
       <path value="$PROJECT_DIR$/lumen/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/lumen/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/lumen/vendor/namshi/jose" />
       <path value="$PROJECT_DIR$/lumen/vendor/sebastian/type" />
       <path value="$PROJECT_DIR$/lumen/vendor/sebastian/resource-operations" />
       <path value="$PROJECT_DIR$/lumen/vendor/illuminate/cache" />
@@ -112,6 +109,10 @@
       <path value="$PROJECT_DIR$/lumen/vendor/graham-campbell/result-type" />
       <path value="$PROJECT_DIR$/lumen/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/lumen/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/lumen/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/lumen/vendor/mobiledetect/mobiledetectlib" />
+      <path value="$PROJECT_DIR$/lumen/vendor/jenssegers/agent" />
+      <path value="$PROJECT_DIR$/lumen/vendor/jaybizzle/crawler-detect" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

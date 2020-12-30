@@ -3,7 +3,6 @@
     namespace App\Providers;
     
     use App\Models\User;
-    use App\Models\Usuario;
     use Illuminate\Support\ServiceProvider;
 
     class AuthServiceProvider extends ServiceProvider {
@@ -28,7 +27,7 @@
             // the User instance via an API token or any other method necessary.
             
             $this->app['auth']->viaRequest('api', function ($request) {
-                return Usuario::where('email', $request->input('email'))->first();
+                return User::where('email', $request->input('email'))->first();
             });
         }
     }

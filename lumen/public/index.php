@@ -23,6 +23,13 @@ $app = require __DIR__.'/../bootstrap/app.php';
 | the client's browser allowing them to enjoy the creative
 | and wonderful application we have prepared for them.
 |
+| ***for clear cache
+| php artisan cache:clear
+| composer dump-autoload
+
+
+https://github.com/jenssegers/agent
+https://github.com/firebase/php-jwt
 */
 
 $app->run();

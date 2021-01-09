@@ -7,15 +7,17 @@
     use Illuminate\Contracts\Auth\Authenticatable as AuthenticatableContract;
     use Illuminate\Database\Eloquent\Factories\HasFactory;
     use Illuminate\Database\Eloquent\Model;
+    use Illuminate\Notifications\Notifiable;
     use Laravel\Lumen\Auth\Authorizable;
 
     /**
      * @property mixed id
+     * @property mixed cell
      * @method static where(string $string, $input)
      * @method static find($sub)
      */
     class User extends Model implements AuthenticatableContract, AuthorizableContract {
-        use Authenticatable, Authorizable, HasFactory;
+        use Authenticatable, Authorizable, HasFactory, Notifiable;
         
         /**
          * @var string table name
@@ -53,4 +55,21 @@
 //        protected $casts = [
 //            'date_column' => 'Timestamp'
 //        ];
+
+//        public function update(array $attributes = [], array $options = []) {
+//            // ... your implementation
+//            return parent::update($attributes, $options);
+//        }
+        
+        public static function pushTokenList() {
+            return (new User)->whereNotNull('device_token')->pluck('device_token')->all();
+        }
+    
+        public static function emailList() {
+            return (new User)->whereNotNull('email')->pluck('email')->all();
+        }
+        
+        public function routeNotificationForNexmo($notification = null) {
+            return '8990';
+        }
     }

@@ -15,6 +15,9 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/fakerphp/faker" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/firebase/php-jwt" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/guzzlehttp/psr7" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/hamcrest/hamcrest-php" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/auth" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/broadcasting" />
@@ -33,6 +36,8 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/http" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/log" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/macroable" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/mail" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/notifications" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/pagination" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/pipeline" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/queue" />
@@ -44,12 +49,19 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/illuminate/view" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/jaybizzle/crawler-detect" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/jenssegers/agent" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/laminas/laminas-diactoros" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/laminas/laminas-zendframework-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/laravel/lumen-framework" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/laravel/nexmo-notification-channel" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/lcobucci/clock" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/league/commonmark" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/mobiledetect/mobiledetectlib" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/mockery/mockery" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/myclabs/deep-copy" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nexmo/laravel" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nikic/fast-route" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/nikic/php-parser" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/opis/closure" />
@@ -68,8 +80,12 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/phpunit/phpunit" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/log" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/ramsey/collection" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/sebastian/cli-parser" />
@@ -88,7 +104,9 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/sebastian/resource-operations" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/sebastian/type" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/swiftmailer/swiftmailer" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/css-selector" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/deprecation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/error-handler" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/event-dispatcher" />
@@ -99,6 +117,7 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/http-kernel" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/mime" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/polyfill-iconv" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/polyfill-intl-grapheme" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/polyfill-intl-idn" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/polyfill-intl-normalizer" />
@@ -113,8 +132,12 @@
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/translation-contracts" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/symfony/var-dumper" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/tijsverkoyen/css-to-inline-styles" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/vlucas/phpdotenv" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/vonage/client" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/vonage/client-core" />
+      <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/vonage/nexmo-bridge" />
       <excludeFolder url="file://$MODULE_DIR$/lumen/vendor/webmozart/assert" />
     </content>
     <orderEntry type="inheritedJdk" />

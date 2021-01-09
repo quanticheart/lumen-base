@@ -113,6 +113,29 @@
       <path value="$PROJECT_DIR$/lumen/vendor/mobiledetect/mobiledetectlib" />
       <path value="$PROJECT_DIR$/lumen/vendor/jenssegers/agent" />
       <path value="$PROJECT_DIR$/lumen/vendor/jaybizzle/crawler-detect" />
+      <path value="$PROJECT_DIR$/lumen/vendor/illuminate/mail" />
+      <path value="$PROJECT_DIR$/lumen/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/lumen/vendor/tijsverkoyen/css-to-inline-styles" />
+      <path value="$PROJECT_DIR$/lumen/vendor/symfony/css-selector" />
+      <path value="$PROJECT_DIR$/lumen/vendor/symfony/polyfill-iconv" />
+      <path value="$PROJECT_DIR$/lumen/vendor/league/commonmark" />
+      <path value="$PROJECT_DIR$/lumen/vendor/illuminate/notifications" />
+      <path value="$PROJECT_DIR$/lumen/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/lumen/vendor/psr/http-client" />
+      <path value="$PROJECT_DIR$/lumen/vendor/psr/http-message" />
+      <path value="$PROJECT_DIR$/lumen/vendor/lcobucci/clock" />
+      <path value="$PROJECT_DIR$/lumen/vendor/lcobucci/jwt" />
+      <path value="$PROJECT_DIR$/lumen/vendor/laminas/laminas-diactoros" />
+      <path value="$PROJECT_DIR$/lumen/vendor/laminas/laminas-zendframework-bridge" />
+      <path value="$PROJECT_DIR$/lumen/vendor/laravel/nexmo-notification-channel" />
+      <path value="$PROJECT_DIR$/lumen/vendor/nexmo/laravel" />
+      <path value="$PROJECT_DIR$/lumen/vendor/vonage/client" />
+      <path value="$PROJECT_DIR$/lumen/vendor/vonage/client-core" />
+      <path value="$PROJECT_DIR$/lumen/vendor/vonage/nexmo-bridge" />
+      <path value="$PROJECT_DIR$/lumen/vendor/ralouphie/getallheaders" />
+      <path value="$PROJECT_DIR$/lumen/vendor/guzzlehttp/promises" />
+      <path value="$PROJECT_DIR$/lumen/vendor/guzzlehttp/psr7" />
+      <path value="$PROJECT_DIR$/lumen/vendor/guzzlehttp/guzzle" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />

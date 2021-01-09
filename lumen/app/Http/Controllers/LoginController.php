@@ -36,7 +36,7 @@
                 return responseError('user name or password incorrect', 57, 401);
                 
             } catch (ValidationException $e) {
-                return responseExceptionError('Problema com login');
+                return responseExceptionError('Problema com login, verifique usuario e senha');
             } catch (QueryException $e) {
                 return responseQueryError();
             }

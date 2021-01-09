@@ -27,9 +27,13 @@ $app = require __DIR__.'/../bootstrap/app.php';
 | php artisan cache:clear
 | composer dump-autoload
 
+How can I run specific migration in laravel
+php artisan migrate --path=/database/migrations/CreateNotificationsTable.php
 
 https://github.com/jenssegers/agent
 https://github.com/firebase/php-jwt
+
+composer require laravel/nexmo-notification-channel
 */
 
 $app->run();
